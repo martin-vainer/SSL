@@ -24,7 +24,7 @@
 all: tablasDeConversion.exe
 
 tablasDeConversion.exe: tablasDeConversion.o Conversion.o
-	gcc  tablasDeConversion.o Conversion.o -o tablasDeConversion.exe
+	gcc tablasDeConversion.o Conversion.o -o tablasDeConversion.exe
 
 tablasDeConversion.o: tablasDeConversion.c conversion.h
 	gcc -c tablasDeConversion.c -o tablasDeConversion.o
