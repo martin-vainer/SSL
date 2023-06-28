@@ -21,7 +21,10 @@
 # clean:
 #  $(RM) $(OBJ) $(BIN)
 
-all: tablasDeConversion.exe
+all: tablasDeConversion.exe test
+
+test: conversionTest
+	conversionTest
 
 tablasDeConversion.exe: tablasDeConversion.o Conversion.o
 	gcc tablasDeConversion.o Conversion.o -o tablasDeConversion.exe
@@ -39,4 +42,4 @@ conversionTest.o: conversionTest.c conversion.h
 	gcc -c conversionTest.c -o conversionTest.o
 
 clean:
-	rm -f tablasDeConversion.o Conversion.o tablasDeConversion.exe
+	rm -f tablasDeConversion.o Conversion.o tablasDeConversion.exe conversionTest.o conversionTest
