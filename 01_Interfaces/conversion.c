@@ -1,4 +1,4 @@
-//definicion de funciones:
+//------------------------- DEFINICION DE FUNCIONES(desarrollo): -------------------------//
 
 #include <stdio.h>
 #include "conversion.h"

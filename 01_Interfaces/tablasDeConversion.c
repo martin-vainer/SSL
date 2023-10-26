@@ -1,5 +1,5 @@
 //tablasDeConversion.c
-// MAIN
+// ------------------------------ MAIN ----------------------------------- //
 
 #include <stdio.h>
 #include "conversion.h"

@@ -13,6 +13,6 @@ int main(void) {
    assert(Farenheit(100) == 212.0);
    assert(Farenheit(50) == 122.0);
    assert(Farenheit(0) == 32.0);
-   //  assert(0);
+    assert(0);
  return 0;
 }
